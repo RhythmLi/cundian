@@ -1,0 +1,5 @@
+html{
+	#app{
+		width: .4rem;
+	}
+}

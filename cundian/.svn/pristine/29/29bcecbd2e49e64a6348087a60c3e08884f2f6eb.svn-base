@@ -1,0 +1,10 @@
+/*xiaocha*/
+/**
+      withdrew 提现收益
+*/
+.b-withdrew {
+    font-size: .3rem;
+    .m-input{
+        
+    }
+}

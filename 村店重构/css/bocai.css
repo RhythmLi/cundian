@@ -1,0 +1,66 @@
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  line-height: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.b-proCategory .m-header {
+  background: #ff5001;
+}
+.b-proCategory .m-header .back,
+.b-proCategory .m-header .right {
+  width: .9rem;
+  margin-right: 0;
+}
+.b-proCategory .m-header .back:before {
+  background: url("../imgs/sprite2.png") no-repeat -1.3rem -4.05rem;
+  background-size: 10rem;
+}
+.b-proCategory .m-header .logo {
+  background: url("../imgs/sprite2.png") no-repeat -2.1rem -2.7rem;
+  background-size: 7.7rem;
+}
+.b-proCategory .m-header .right {
+  background: url("../imgs/sprite2.png") no-repeat -8rem 0;
+  background-size: 8.8rem;
+}
+.b-proCategory .m-proCategory {
+  margin: .9rem 0 1.15rem;
+  font-size: .3rem;
+  color: #666;
+}
+.b-proCategory .m-proCategory .category-list h3 {
+  font-weight: normal;
+  font-size: .3rem;
+  line-height: 1rem;
+  padding-left: .22rem;
+  color: #ff5001;
+}
+.b-proCategory .m-proCategory .category-list h3 i {
+  border-left: 3px solid #ff5001;
+  display: inline-block;
+  height: .3rem;
+  margin-right: .13rem;
+  vertical-align: -0.04rem;
+}
+.b-proCategory .m-proCategory .category-list ul {
+  border-top: 1px solid #e1e1e1;
+}
+.b-proCategory .m-proCategory .category-list ul li {
+  float: left;
+  width: 24.7%;
+  border-right: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  background: #fff;
+}
+.b-proCategory .m-proCategory .category-list ul li a {
+  padding-top: .37rem;
+  height: 1.38rem;
+  text-align: center;
+  color: #666;
+  font-size: .3rem;
+  display: block;
+}

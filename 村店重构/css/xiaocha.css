@@ -1,0 +1,40 @@
+/*xiaocha*/
+/**
+      withdrew 提现收益
+*/
+.b-withdrew {
+  font-size: .3rem;
+}
+.b-withdrew .m-input {
+  border-top: 1px solid transparent;
+}
+.b-withdrew .m-input .u-input {
+  margin: .3rem 0 ;
+  line-height: .9rem;
+  border: 1px solid #ff5000;
+  border-radius: .1rem;
+  position: relative;
+}
+.b-withdrew .m-input .u-input.left-icon {
+  padding-left: .6rem;
+}
+.b-withdrew .m-input .u-input.left-icon:before {
+  content: "";
+  position: absolute;
+  width: .4rem;
+  height: .4rem;
+  left: .1rem;
+  top: .25rem;
+}
+.b-withdrew .m-input .u-input.icon-user:before {
+  background: url("../imgs/sprite2.png") no-repeat;
+  background-size: 6.6rem;
+}
+.b-withdrew .m-input .u-input input {
+  display: block;
+  line-height: .9rem;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  outline: 0;
+}
